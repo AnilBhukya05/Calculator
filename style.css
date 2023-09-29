@@ -17,7 +17,7 @@
 .logo{
     width: 5rem;
     height: 2.5rem;
-    color: white;
+    color:#323946;
     transform: translateX(20px);
 }
 
@@ -83,4 +83,11 @@ button{
 
 .operator{
     color: #6dee0a;
+}
+
+
+@media (max-width: 660px) {
+    .calculator {
+        padding: 4px;
+    }
 }
